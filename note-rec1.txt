@@ -1,0 +1,286 @@
+{
+  "time": "2020-07-14T16:24:39.924362387Z",
+  "frequency": 868.1,
+  "modulation": "LORA",
+  "data_rate": "SF7BW125",
+  "coding_rate": "4/5",
+  "gateways": [
+    {
+      "gtw_id": "eui-a840411b7c5c4152",
+      "timestamp": 2290828403,
+      "time": "2020-07-14T16:24:39.728534Z",
+      "channel": 0,
+      "rssi": -115,
+      "snr": 7.8,
+      "latitude": 22.4218,
+      "longitude": 114.1435,
+      "altitude": 39
+    },
+    {
+      "gtw_id": "eui-a84041ffff1d25d1",
+      "timestamp": 4143898963,
+      "time": "2020-07-14T16:24:39.722348Z",
+      "channel": 0,
+      "rssi": -83,
+      "snr": 8.8,
+      "latitude": 22.4217,
+      "longitude": 114.1435,
+      "altitude": 36
+    },
+    {
+      "gtw_id": "eui-c840411d25e44150",
+      "timestamp": 2987925115,
+      "time": "2020-07-14T16:24:39.722696Z",
+      "channel": 0,
+      "rssi": -43,
+      "snr": 8.8,
+      "latitude": 22.4222,
+      "longitude": 114.1433,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a840411e9b404150",
+      "timestamp": 2988902787,
+      "time": "2020-07-14T16:24:39.72362Z",
+      "channel": 0,
+      "rssi": -64,
+      "snr": 9.2,
+      "latitude": 22.4221,
+      "longitude": 114.1432,
+      "altitude": 35
+    },
+    {
+      "gtw_id": "eui-a840411d1e684150",
+      "timestamp": 1380370699,
+      "time": "2020-07-14T16:24:39.722589Z",
+      "channel": 0,
+      "rssi": -87,
+      "snr": 9.5
+    },
+    {
+      "gtw_id": "eui-a840411ecc104150",
+      "timestamp": 200646267,
+      "time": "2020-07-14T16:24:39.729205Z",
+      "channel": 0,
+      "rssi": -83,
+      "snr": 9.8,
+      "latitude": 22.422,
+      "longitude": 114.1435,
+      "altitude": 36
+    },
+    {
+      "gtw_id": "eui-a840411b81c8ffff",
+      "timestamp": 1457400579,
+      "time": "2020-07-14T16:24:39.717213Z",
+      "channel": 0,
+      "rssi": -102,
+      "snr": 9.8,
+      "latitude": 22.4221,
+      "longitude": 114.1431,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a840411e96744150",
+      "timestamp": 375847979,
+      "time": "2020-07-14T16:24:39.711199Z",
+      "channel": 0,
+      "rssi": -75,
+      "snr": 10,
+      "latitude": 22.4221,
+      "longitude": 114.1434,
+      "altitude": 37
+    }
+  ]
+}
+
+{
+  "time": "2020-07-14T16:29:39.921843279Z",
+  "frequency": 868.3,
+  "modulation": "LORA",
+  "data_rate": "SF7BW125",
+  "coding_rate": "4/5",
+  "gateways": [
+    {
+      "gtw_id": "eui-a840411b7c5c4152",
+      "timestamp": 2590842123,
+      "time": "2020-07-14T16:29:39.737946Z",
+      "channel": 1,
+      "rssi": -113,
+      "snr": 7,
+      "latitude": 22.4218,
+      "longitude": 114.1435,
+      "altitude": 39
+    },
+    {
+      "gtw_id": "eui-a840411ecc104150",
+      "timestamp": 500660027,
+      "time": "2020-07-14T16:29:39.749913Z",
+      "channel": 1,
+      "rssi": -79,
+      "snr": 9,
+      "latitude": 22.422,
+      "longitude": 114.1435,
+      "altitude": 36
+    },
+    {
+      "gtw_id": "eui-c840411d25e44150",
+      "timestamp": 3287939035,
+      "time": "2020-07-14T16:29:39.744761Z",
+      "channel": 1,
+      "rssi": -43,
+      "snr": 9,
+      "latitude": 22.4222,
+      "longitude": 114.1433,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a840411e96744150",
+      "timestamp": 675861835,
+      "time": "2020-07-14T16:29:39.725547Z",
+      "channel": 1,
+      "rssi": -71,
+      "snr": 9.2,
+      "latitude": 22.4221,
+      "longitude": 114.1434,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a84041ffff1d25d1",
+      "timestamp": 148945227,
+      "time": "2020-07-14T16:29:39.73274Z",
+      "channel": 1,
+      "rssi": -81,
+      "snr": 9.2,
+      "latitude": 22.4217,
+      "longitude": 114.1435,
+      "altitude": 36
+    },
+    {
+      "gtw_id": "eui-a840411b81c8ffff",
+      "timestamp": 1757414251,
+      "time": "2020-07-14T16:29:39.734606Z",
+      "channel": 1,
+      "rssi": -101,
+      "snr": 9.5,
+      "latitude": 22.4221,
+      "longitude": 114.1431,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a840411d1e684150",
+      "timestamp": 1680384491,
+      "time": "2020-07-14T16:29:39.744552Z",
+      "channel": 1,
+      "rssi": -87,
+      "snr": 9.5
+    },
+    {
+      "gtw_id": "eui-a840411e9b404150",
+      "timestamp": 3288916619,
+      "time": "2020-07-14T16:29:39.738231Z",
+      "channel": 1,
+      "rssi": -63,
+      "snr": 10.2,
+      "latitude": 22.4221,
+      "longitude": 114.1432,
+      "altitude": 35
+    }
+  ]
+}
+
+{
+  "time": "2020-07-14T16:39:39.976904184Z",
+  "frequency": 867.9,
+  "modulation": "LORA",
+  "data_rate": "SF7BW125",
+  "coding_rate": "4/5",
+  "gateways": [
+    {
+      "gtw_id": "eui-a840411b7c5c4152",
+      "timestamp": 3190869540,
+      "time": "2020-07-14T16:39:39.769795Z",
+      "channel": 7,
+      "rssi": -121,
+      "snr": 4.5,
+      "latitude": 22.4218,
+      "longitude": 114.1435,
+      "altitude": 39
+    },
+    {
+      "gtw_id": "eui-a84041ffff1d25d1",
+      "timestamp": 748972316,
+      "time": "2020-07-14T16:39:39.765009Z",
+      "channel": 7,
+      "rssi": -83,
+      "snr": 9,
+      "latitude": 22.4217,
+      "longitude": 114.1435,
+      "altitude": 36
+    },
+    {
+      "gtw_id": "eui-a840411e96744150",
+      "timestamp": 1275889516,
+      "time": "2020-07-14T16:39:39.755961Z",
+      "channel": 7,
+      "rssi": -73,
+      "snr": 9,
+      "latitude": 22.4221,
+      "longitude": 114.1434,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-c840411d25e44150",
+      "timestamp": 3887966868,
+      "time": "2020-07-14T16:39:39.763185Z",
+      "channel": 7,
+      "rssi": -43,
+      "snr": 9.5,
+      "latitude": 22.4222,
+      "longitude": 114.1433,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a840411ecc104150",
+      "timestamp": 1100687524,
+      "time": "2020-07-14T16:39:39.77839Z",
+      "channel": 7,
+      "rssi": -81,
+      "snr": 9.5,
+      "latitude": 22.422,
+      "longitude": 114.1435,
+      "altitude": 36
+    },
+    {
+      "gtw_id": "eui-a840411b81c8ffff",
+      "timestamp": 2357441580,
+      "time": "2020-07-14T16:39:39.763448Z",
+      "channel": 7,
+      "rssi": -102,
+      "snr": 9.8,
+      "latitude": 22.4221,
+      "longitude": 114.1431,
+      "altitude": 37
+    },
+    {
+      "gtw_id": "eui-a840411e9b404150",
+      "timestamp": 3888944252,
+      "time": "2020-07-14T16:39:39.761569Z",
+      "channel": 7,
+      "rssi": -65,
+      "snr": 9.8,
+      "latitude": 22.4221,
+      "longitude": 114.1432,
+      "altitude": 35
+    },
+    {
+      "gtw_id": "eui-a840411d1e684150",
+      "timestamp": 2280412052,
+      "time": "2020-07-14T16:39:39.765109Z",
+      "channel": 7,
+      "rssi": -88,
+      "snr": 10
+    }
+  ]
+}
+
+
