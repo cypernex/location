@@ -1,0 +1,181 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRESS	MQTTAsync_publish.c	32;"	d	file:
+ADDRESS	MQTTAsync_subscribe.c	32;"	d	file:
+ADDRESS	MQTTClient_publish.c	22;"	d	file:
+ADDRESS	MQTTClient_publish_async.c	28;"	d	file:
+ADDRESS	MQTTClient_subscribe.c	22;"	d	file:
+CLIENTID	MQTTAsync_publish.c	33;"	d	file:
+CLIENTID	MQTTAsync_subscribe.c	33;"	d	file:
+CLIENTID	MQTTClient_publish.c	23;"	d	file:
+CLIENTID	MQTTClient_publish_async.c	29;"	d	file:
+CLIENTID	MQTTClient_subscribe.c	23;"	d	file:
+MQTTVersion	pubsub_opts.h	/^	int MQTTVersion;$/;"	m	struct:pubsub_opts
+PAYLOAD	MQTTAsync_publish.c	35;"	d	file:
+PAYLOAD	MQTTAsync_subscribe.c	35;"	d	file:
+PAYLOAD	MQTTClient_publish.c	25;"	d	file:
+PAYLOAD	MQTTClient_publish_async.c	31;"	d	file:
+PAYLOAD	MQTTClient_subscribe.c	25;"	d	file:
+PUBSUB_OPTS_H	pubsub_opts.h	19;"	d
+QOS	MQTTAsync_publish.c	36;"	d	file:
+QOS	MQTTAsync_subscribe.c	36;"	d	file:
+QOS	MQTTClient_publish.c	26;"	d	file:
+QOS	MQTTClient_publish_async.c	32;"	d	file:
+QOS	MQTTClient_subscribe.c	26;"	d	file:
+TIMEOUT	MQTTAsync_publish.c	37;"	d	file:
+TIMEOUT	MQTTAsync_subscribe.c	37;"	d	file:
+TIMEOUT	MQTTClient_publish.c	27;"	d	file:
+TIMEOUT	MQTTClient_publish_async.c	33;"	d	file:
+TIMEOUT	MQTTClient_subscribe.c	27;"	d	file:
+TOPIC	MQTTAsync_publish.c	34;"	d	file:
+TOPIC	MQTTAsync_subscribe.c	34;"	d	file:
+TOPIC	MQTTClient_publish.c	24;"	d	file:
+TOPIC	MQTTClient_publish_async.c	30;"	d	file:
+TOPIC	MQTTClient_subscribe.c	24;"	d	file:
+cafile	pubsub_opts.h	/^	char* cafile;$/;"	m	struct:pubsub_opts
+capath	pubsub_opts.h	/^	char* capath;$/;"	m	struct:pubsub_opts
+cert	pubsub_opts.h	/^	char* cert;$/;"	m	struct:pubsub_opts
+cfinish	paho_c_pub.c	/^void cfinish(int sig)$/;"	f
+cfinish	paho_c_sub.c	/^void cfinish(int sig)$/;"	f
+cfinish	paho_cs_pub.c	/^void cfinish(int sig)$/;"	f
+cfinish	paho_cs_sub.c	/^void cfinish(int sig)$/;"	f
+ciphers	pubsub_opts.h	/^	char* ciphers;$/;"	m	struct:pubsub_opts
+clientid	pubsub_opts.h	/^	char* clientid;$/;"	m	struct:pubsub_opts
+conn_opts	paho_c_sub.c	/^MQTTAsync_connectOptions conn_opts = MQTTAsync_connectOptions_initializer;$/;"	v
+connected	paho_c_pub.c	/^static int connected = 0;$/;"	v	file:
+connection	pubsub_opts.h	/^	char* connection;$/;"	m	struct:pubsub_opts
+connlost	MQTTAsync_publish.c	/^void connlost(void *context, char *cause)$/;"	f
+connlost	MQTTAsync_subscribe.c	/^void connlost(void *context, char *cause)$/;"	f
+connlost	MQTTClient_publish_async.c	/^void connlost(void *context, char *cause)$/;"	f
+connlost	MQTTClient_subscribe.c	/^void connlost(void *context, char *cause)$/;"	f
+delimiter	pubsub_opts.h	/^	char* delimiter;$/;"	m	struct:pubsub_opts
+delivered	MQTTClient_publish_async.c	/^void delivered(void *context, MQTTClient_deliveryToken dt)$/;"	f
+delivered	MQTTClient_subscribe.c	/^void delivered(void *context, MQTTClient_deliveryToken dt)$/;"	f
+deliveredtoken	MQTTClient_publish_async.c	/^MQTTClient_deliveryToken deliveredtoken;$/;"	v
+deliveredtoken	MQTTClient_subscribe.c	/^volatile MQTTClient_deliveryToken deliveredtoken;$/;"	v
+disc_finished	MQTTAsync_subscribe.c	/^int disc_finished = 0;$/;"	v
+disconnected	paho_c_pub.c	/^static int disconnected = 0;$/;"	v	file:
+disconnected	paho_c_sub.c	/^int disconnected = 0;$/;"	v
+filename	pubsub_opts.h	/^	char* filename;$/;"	m	struct:pubsub_opts
+finished	MQTTAsync_publish.c	/^int finished = 0;$/;"	v
+finished	MQTTAsync_subscribe.c	/^int finished = 0;$/;"	v
+finished	paho_c_sub.c	/^volatile int finished = 0;$/;"	v
+getopts	pubsub_opts.c	/^int getopts(int argc, char** argv, struct pubsub_opts* opts)$/;"	f
+host	pubsub_opts.h	/^	char* host;$/;"	m	struct:pubsub_opts
+insecure	pubsub_opts.h	/^	int insecure;$/;"	m	struct:pubsub_opts
+keepalive	pubsub_opts.h	/^	int keepalive;$/;"	m	struct:pubsub_opts
+key	pubsub_opts.h	/^	char* key;$/;"	m	struct:pubsub_opts
+keypass	pubsub_opts.h	/^	char* keypass;$/;"	m	struct:pubsub_opts
+logProperties	pubsub_opts.c	/^void logProperties(MQTTProperties *props)$/;"	f
+main	MQTTAsync_publish.c	/^int main(int argc, char* argv[])$/;"	f
+main	MQTTAsync_subscribe.c	/^int main(int argc, char* argv[])$/;"	f
+main	MQTTClient_publish.c	/^int main(int argc, char* argv[])$/;"	f
+main	MQTTClient_publish_async.c	/^int main(int argc, char* argv[])$/;"	f
+main	MQTTClient_subscribe.c	/^int main(int argc, char* argv[])$/;"	f
+main	paho_c_pub.c	/^int main(int argc, char** argv)$/;"	f
+main	paho_c_sub.c	/^int main(int argc, char** argv)$/;"	f
+main	paho_cs_pub.c	/^int main(int argc, char** argv)$/;"	f
+main	paho_cs_sub.c	/^int main(int argc, char** argv)$/;"	f
+maxdatalen	pubsub_opts.h	/^	int maxdatalen;$/;"	m	struct:pubsub_opts
+message	pubsub_opts.h	/^	char* message;$/;"	m	struct:pubsub_opts
+messageArrived	MQTTAsync_publish.c	/^int messageArrived(void* context, char* topicName, int topicLen, MQTTAsync_message* m)$/;"	f
+messageArrived	paho_c_pub.c	/^int messageArrived(void* context, char* topicName, int topicLen, MQTTAsync_message* m)$/;"	f
+messageArrived	paho_c_sub.c	/^int messageArrived(void *context, char *topicName, int topicLen, MQTTAsync_message *message)$/;"	f
+messageArrived	paho_cs_pub.c	/^int messageArrived(void* context, char* topicName, int topicLen, MQTTClient_message* m)$/;"	f
+message_expiry	pubsub_opts.h	/^	int message_expiry;$/;"	m	struct:pubsub_opts
+msgarrvd	MQTTAsync_subscribe.c	/^int msgarrvd(void *context, char *topicName, int topicLen, MQTTAsync_message *message)$/;"	f
+msgarrvd	MQTTClient_publish_async.c	/^int msgarrvd(void *context, char *topicName, int topicLen, MQTTClient_message *message)$/;"	f
+msgarrvd	MQTTClient_subscribe.c	/^int msgarrvd(void *context, char *topicName, int topicLen, MQTTClient_message *message)$/;"	f
+myconnect	paho_c_pub.c	/^void myconnect(MQTTAsync client)$/;"	f
+myconnect	paho_cs_pub.c	/^int myconnect(MQTTClient* client)$/;"	f
+myconnect	paho_cs_sub.c	/^int myconnect(MQTTClient* client)$/;"	f
+mypublish	paho_c_pub.c	/^int mypublish(MQTTAsync client, int datalen, char* data)$/;"	f
+mysleep	paho_c_pub.c	/^void mysleep(int ms)$/;"	f
+mysleep	paho_c_sub.c	/^void mysleep(int ms)$/;"	f
+name	pubsub_opts.h	/^		char *name;$/;"	m	struct:pubsub_opts::__anon1
+name	pubsub_opts.h	/^	const char* name;$/;"	m	struct:__anon2
+null_message	pubsub_opts.h	/^	int null_message;$/;"	m	struct:pubsub_opts
+onConnect	MQTTAsync_publish.c	/^void onConnect(void* context, MQTTAsync_successData* response)$/;"	f
+onConnect	MQTTAsync_subscribe.c	/^void onConnect(void* context, MQTTAsync_successData* response)$/;"	f
+onConnect	paho_c_pub.c	/^void onConnect(void* context, MQTTAsync_successData* response)$/;"	f
+onConnect	paho_c_sub.c	/^void onConnect(void* context, MQTTAsync_successData* response)$/;"	f
+onConnect5	paho_c_pub.c	/^void onConnect5(void* context, MQTTAsync_successData5* response)$/;"	f
+onConnect5	paho_c_sub.c	/^void onConnect5(void* context, MQTTAsync_successData5* response)$/;"	f
+onConnectFailure	MQTTAsync_publish.c	/^void onConnectFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onConnectFailure	MQTTAsync_subscribe.c	/^void onConnectFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onConnectFailure	paho_c_pub.c	/^void onConnectFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onConnectFailure	paho_c_sub.c	/^void onConnectFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onConnectFailure5	paho_c_pub.c	/^void onConnectFailure5(void* context, MQTTAsync_failureData5* response)$/;"	f
+onConnectFailure5	paho_c_sub.c	/^void onConnectFailure5(void* context, MQTTAsync_failureData5* response)$/;"	f
+onDisconnect	MQTTAsync_publish.c	/^void onDisconnect(void* context, MQTTAsync_successData* response)$/;"	f
+onDisconnect	MQTTAsync_subscribe.c	/^void onDisconnect(void* context, MQTTAsync_successData* response)$/;"	f
+onDisconnect	paho_c_pub.c	/^void onDisconnect(void* context, MQTTAsync_successData* response)$/;"	f
+onDisconnect	paho_c_sub.c	/^void onDisconnect(void* context, MQTTAsync_successData* response)$/;"	f
+onDisconnect5	paho_c_pub.c	/^void onDisconnect5(void* context, MQTTAsync_successData5* response)$/;"	f
+onDisconnectFailure	MQTTAsync_publish.c	/^void onDisconnectFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onDisconnectFailure	MQTTAsync_subscribe.c	/^void onDisconnectFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onPSKAuth	paho_c_pub.c	/^static unsigned int onPSKAuth(const char* hint,$/;"	f	file:
+onPublish	paho_c_pub.c	/^void onPublish(void* context, MQTTAsync_successData* response)$/;"	f
+onPublish5	paho_c_pub.c	/^void onPublish5(void* context, MQTTAsync_successData5* response)$/;"	f
+onPublishFailure	paho_c_pub.c	/^void onPublishFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onPublishFailure5	paho_c_pub.c	/^void onPublishFailure5(void* context, MQTTAsync_failureData5* response)$/;"	f
+onSSLError	paho_c_pub.c	/^static int onSSLError(const char *str, size_t len, void *context)$/;"	f	file:
+onSend	MQTTAsync_publish.c	/^void onSend(void* context, MQTTAsync_successData* response)$/;"	f
+onSendFailure	MQTTAsync_publish.c	/^void onSendFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onSubscribe	MQTTAsync_subscribe.c	/^void onSubscribe(void* context, MQTTAsync_successData* response)$/;"	f
+onSubscribe	paho_c_sub.c	/^void onSubscribe(void* context, MQTTAsync_successData* response)$/;"	f
+onSubscribe5	paho_c_sub.c	/^void onSubscribe5(void* context, MQTTAsync_successData5* response)$/;"	f
+onSubscribeFailure	MQTTAsync_subscribe.c	/^void onSubscribeFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onSubscribeFailure	paho_c_sub.c	/^void onSubscribeFailure(void* context, MQTTAsync_failureData* response)$/;"	f
+onSubscribeFailure5	paho_c_sub.c	/^void onSubscribeFailure5(void* context, MQTTAsync_failureData5* response)$/;"	f
+opts	paho_c_pub.c	/^struct pubsub_opts opts =$/;"	v	typeref:struct:pubsub_opts
+opts	paho_c_sub.c	/^struct pubsub_opts opts =$/;"	v	typeref:struct:pubsub_opts
+opts	paho_cs_pub.c	/^struct pubsub_opts opts =$/;"	v	typeref:struct:pubsub_opts
+opts	paho_cs_sub.c	/^struct pubsub_opts opts =$/;"	v	typeref:struct:pubsub_opts
+password	pubsub_opts.h	/^	char* password;$/;"	m	struct:pubsub_opts
+port	pubsub_opts.h	/^	char* port;$/;"	m	struct:pubsub_opts
+printVersionInfo	pubsub_opts.c	/^int printVersionInfo(pubsub_opts_nameValue* info)$/;"	f
+property	paho_c_pub.c	/^MQTTProperty property;$/;"	v
+props	paho_c_pub.c	/^MQTTProperties props = MQTTProperties_initializer;$/;"	v
+psk	pubsub_opts.h	/^	char* psk;$/;"	m	struct:pubsub_opts
+psk_identity	pubsub_opts.h	/^	char* psk_identity;$/;"	m	struct:pubsub_opts
+pub_opts	paho_c_pub.c	/^MQTTAsync_responseOptions pub_opts = MQTTAsync_responseOptions_initializer;$/;"	v
+published	paho_c_pub.c	/^static int published = 0;$/;"	v	file:
+publisher	pubsub_opts.h	/^	int publisher;  \/* publisher app? *\/$/;"	m	struct:pubsub_opts
+pubsub_opts	pubsub_opts.h	/^struct pubsub_opts$/;"	s
+pubsub_opts_nameValue	pubsub_opts.h	/^} pubsub_opts_nameValue;$/;"	t	typeref:struct:__anon2
+qos	pubsub_opts.h	/^	int qos;$/;"	m	struct:pubsub_opts
+quiet	pubsub_opts.h	/^	int quiet;$/;"	m	struct:pubsub_opts
+readfile	pubsub_opts.c	/^char* readfile(int* data_len, struct pubsub_opts* opts)$/;"	f
+retained	pubsub_opts.h	/^	int retained;$/;"	m	struct:pubsub_opts
+sleep	paho_c_pub.c	29;"	d	file:
+sleep	paho_c_sub.c	32;"	d	file:
+sleep	paho_cs_pub.c	28;"	d	file:
+sleep	paho_cs_sub.c	31;"	d	file:
+stdin_lines	pubsub_opts.h	/^	int stdin_lines;$/;"	m	struct:pubsub_opts
+stdlin_complete	pubsub_opts.h	/^	int stdlin_complete;$/;"	m	struct:pubsub_opts
+subscribed	MQTTAsync_subscribe.c	/^int subscribed = 0;$/;"	v
+subscribed	paho_c_sub.c	/^int subscribed = 0;$/;"	v
+toStop	paho_c_pub.c	/^volatile int toStop = 0;$/;"	v
+toStop	paho_cs_pub.c	/^volatile int toStop = 0;$/;"	v
+toStop	paho_cs_sub.c	/^volatile int toStop = 0;$/;"	v
+topic	pubsub_opts.h	/^	char* topic;$/;"	m	struct:pubsub_opts
+trace_callback	paho_c_pub.c	/^void trace_callback(enum MQTTASYNC_TRACE_LEVELS level, char* message)$/;"	f
+trace_callback	paho_c_sub.c	/^void trace_callback(enum MQTTASYNC_TRACE_LEVELS level, char* message)$/;"	f
+trace_callback	paho_cs_pub.c	/^void trace_callback(enum MQTTCLIENT_TRACE_LEVELS level, char* message)$/;"	f
+trace_callback	paho_cs_sub.c	/^void trace_callback(enum MQTTCLIENT_TRACE_LEVELS level, char* message)$/;"	f
+tracelevel	pubsub_opts.h	/^	int tracelevel;$/;"	m	struct:pubsub_opts
+usage	pubsub_opts.c	/^void usage(struct pubsub_opts* opts, pubsub_opts_nameValue* name_values, const char* program_name)$/;"	f
+user_property	pubsub_opts.h	/^	} user_property;$/;"	m	struct:pubsub_opts	typeref:struct:pubsub_opts::__anon1
+username	pubsub_opts.h	/^	char* username;$/;"	m	struct:pubsub_opts
+value	pubsub_opts.h	/^		char *value;$/;"	m	struct:pubsub_opts::__anon1
+value	pubsub_opts.h	/^	const char* value;$/;"	m	struct:__anon2
+verbose	pubsub_opts.h	/^	int verbose;$/;"	m	struct:pubsub_opts
+will_payload	pubsub_opts.h	/^	char* will_payload;$/;"	m	struct:pubsub_opts
+will_qos	pubsub_opts.h	/^	int will_qos;$/;"	m	struct:pubsub_opts
+will_retain	pubsub_opts.h	/^	int will_retain;$/;"	m	struct:pubsub_opts
+will_topic	pubsub_opts.h	/^	char* will_topic;$/;"	m	struct:pubsub_opts
