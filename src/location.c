@@ -242,7 +242,7 @@ static int parse_serv_cfg(const char * conf_file) {
     val = json_object_get_value(conf_obj, "rssidiv");
     if (val != NULL) {
         loccfg.rssidiv = (float)json_value_get_number(val);
-        MSG_DEBUG(LOG_INFO, "INFO~ rssidiv is configured to %d\n", loccfg.rssidiv);
+        MSG_DEBUG(LOG_INFO, "INFO~ rssidiv is configured to %f\n", loccfg.rssidiv);
     } 
 
     conf_obj = json_object_get_object(json_value_get_object(root_val), "debug_conf");
