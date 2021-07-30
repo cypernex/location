@@ -1,21 +1,21 @@
 { "mqtt_conf": { 
-        "servaddr": "eu.thethings.network", 
+        "servaddr": "thethings.meshed.com.au", 
         "servport": 1883, 
         "clientid": "Dragino location server", 
         "qos": 1, 
-        "username": "lgt92-ble", 
-        "password": "ttn-account-v2.ePCI3xs_qYAHdr8flOSgrL5804mqZUOwb6YQqyKGhvk", 
+        "username": "cypernex-dragino-ble-tracker", 
+        "password": "ttn-account-v2.Xrb-Ae5EonWivjrEqHk3OCqYoi0PaXx0gLi5PBAINGc", 
         "topic": "+/devices/+/up"
         /*"connection": "[str]" */
     },
   "mapwize_conf": { 
-        "apikey": "e8942923525a9b1de17a3f51a9cde117", 
-        "venueid":"5f9947ce932c3d00168a954c", 
-        "orgid":"5f88162d85a42800169652b1", 
-        "universesid":"5f88162f85a42800169652b4", 
-        "placetype": "people" 
-        /*"placetypeid": "" */
-  },
+        "apikey": "b154cda9309a9b1a67f79c35b13bdf45", 
+        "venueid":"60fe18a8f524830014804799", 
+        "orgid":"60fa2681db26fa0014120202", 
+        "universesid":"60fe1863d7d94f001410f851",
+        "placetype":"Cypernex-Office",
+	"placetypeid":
+    },
   "rssi_conf":{
         "rssirate": 47, 
         "rssidiv": 2.0 
@@ -24,7 +24,7 @@
   "debug_conf": {
         "LOG_INFO": 1,
         "LOG_WARNING": 1,
-        "LOG_ERROR": 0
+        "LOG_ERROR": 1
   }
 
 }
