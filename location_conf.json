@@ -3,16 +3,7 @@
         "servport": 1883, 
         "clientid": "Dragino location server", 
         "qos": 1, 
-        "username": "cypernex-dragino-ble-tracker", 
-        "password": "ttn-account-v2.Xrb-Ae5EonWivjrEqHk3OCqYoi0PaXx0gLi5PBAINGc", 
-        "topic": "+/devices/+/up"
-        /*"connection": "[str]" */
-    },
-  "mapwize_conf": { 
-        "apikey": "b154cda9309a9b1a67f79c35b13bdf45", 
-        "venueid":"60fe18a8f524830014804799", 
-        "orgid":"60fa2681db26fa0014120202", 
-        "universesid":"60fe1863d7d94f001410f851",
+
         "placetype":"Cypernex-Office",
 	"placetypeid":
     },
