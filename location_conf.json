@@ -1,12 +1,22 @@
+
 { "mqtt_conf": { 
-        "servaddr": "thethings.meshed.com.au", 
+        "servaddr": "eu.thethings.network", 
         "servport": 1883, 
         "clientid": "Dragino location server", 
         "qos": 1, 
-
-        "placetype":"Cypernex-Office",
-	"placetypeid":
+        "username": "lgt92-ble", 
+        "password": "ttn-account-v2.ePCI3xs_qYAHdr8flOSgrL5804mqZUOwb6YQqyKGhvk", 
+        "topic": "+/devices/+/up"
+        /*"connection": "[str]" */
     },
+  "mapwize_conf": { 
+        "apikey": "e8942923525a9b1de17a3f51a9cde117", 
+        "venueid":"5f9947ce932c3d00168a954c", 
+        "orgid":"5f88162d85a42800169652b1", 
+        "universesid":"5f88162f85a42800169652b4", 
+        "placetype": "people" 
+        /*"placetypeid": "" */
+  },
   "rssi_conf":{
         "rssirate": 47, 
         "rssidiv": 2.0 
@@ -15,7 +25,7 @@
   "debug_conf": {
         "LOG_INFO": 1,
         "LOG_WARNING": 1,
-        "LOG_ERROR": 1
+        "LOG_ERROR": 0
   }
 
 }
