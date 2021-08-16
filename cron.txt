@@ -1,2 +1,1 @@
-@reboot root cd /home/ubuntu/mapwize-ui-js && nohup npm run start
-@reboot root cd /home/ubuntu/location && nohup ./location
+@reboot rcd /home/ubuntu/location && nohup ./location > /home/ubuntu/converter.out 2>&1
