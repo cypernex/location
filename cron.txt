@@ -1,1 +1,1 @@
-@reboot rcd /home/ubuntu/location && nohup ./location > /home/ubuntu/converter.out 2>&1
+@reboot cd /home/ubuntu/location && nohup ./location > /home/ubuntu/converter.out 2>&1
