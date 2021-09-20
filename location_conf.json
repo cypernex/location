@@ -1,20 +1,20 @@
 
 { "mqtt_conf": { 
-        "servaddr": "eu.thethings.network", 
-        "servport": 1883, 
-        "clientid": "Dragino location server", 
-        "qos": 1, 
-        "username": "lgt92-ble", 
-        "password": "ttn-account-v2.ePCI3xs_qYAHdr8flOSgrL5804mqZUOwb6YQqyKGhvk", 
-        "topic": "+/devices/+/up"
+        "servaddr": "SERV_ADDR", 
+        "servport": SERV_PORT, 
+        "clientid": "CLIENT_ID", 
+        "qos": Q_O_S, 
+        "username": "USER_NAME", 
+        "password": "PASS_WORD", 
+        "topic": "TOPIC_NAME"
         /*"connection": "[str]" */
     },
   "mapwize_conf": { 
-        "apikey": "e8942923525a9b1de17a3f51a9cde117", 
-        "venueid":"5f9947ce932c3d00168a954c", 
-        "orgid":"5f88162d85a42800169652b1", 
-        "universesid":"5f88162f85a42800169652b4", 
-        "placetype": "people" 
+        "apikey": "API_KEY", 
+        "venueid":"VENUE_ID", 
+        "orgid":"ORG_ID", 
+        "universesid":"UNIVERSES_ID", 
+        "placetype": "PLACE_TYPE" 
         /*"placetypeid": "" */
   },
   "rssi_conf":{
