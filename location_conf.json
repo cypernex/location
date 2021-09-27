@@ -1,25 +1,24 @@
 
 { "mqtt_conf": { 
-        "servaddr": "SERV_ADDR", 
-        "servport": SERV_PORT, 
-        "clientid": "CLIENT_ID", 
-        "qos": Q_O_S, 
-        "username": "USER_NAME", 
-        "password": "PASS_WORD", 
-        "topic": "TOPIC_NAME"
-        /*"connection": "[str]" */
+        "servaddr": "mqtt_servaddr", 
+        "servport": mqtt_servport, 
+        "clientid": "mqtt_clientid", 
+        "qos": mqtt_qos, 
+        "username": "mqtt_username", 
+        "password": "mqtt_password", 
+        "topic": "mqtt_topic"
     },
   "mapwize_conf": { 
-        "apikey": "API_KEY", 
-        "venueid":"VENUE_ID", 
-        "orgid":"ORG_ID", 
-        "universesid":"UNIVERSES_ID", 
-        "placetype": "PLACE_TYPE" 
+        "apikey": "mapwize_apikey", 
+        "venueid":"mapwize_venueid", 
+        "orgid":"mapwize_orgid", 
+        "universesid":"mapwize_universesid", 
+        "placetype": "mapwize_placetype" 
         /*"placetypeid": "" */
   },
   "rssi_conf":{
-        "rssirate": 47, 
-        "rssidiv": 2.0 
+        "rssirate": rssi_rssirate, 
+        "rssidiv": rssi_rssidiv
   },
 
   "debug_conf": {
